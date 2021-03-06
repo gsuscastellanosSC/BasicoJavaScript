@@ -33,3 +33,5 @@
             saludar = function(estudiante){ 
                 console.log(`hola ${estudiante}`) 
             }
+# Class#6
+    ¿Cuándo utilizar una función declarativa y una expresiva?
