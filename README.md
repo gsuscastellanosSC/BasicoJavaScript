@@ -35,3 +35,5 @@
             }
 # Class#6
     ¿Cuándo utilizar una función declarativa y una expresiva?
+# Class#7
+    Scope
