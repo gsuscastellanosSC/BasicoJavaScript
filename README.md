@@ -37,3 +37,10 @@
     ¿Cuándo utilizar una función declarativa y una expresiva?
 # Class#7
     Scope
+# Class#8
+    Hoisting
+
+# Links
+    Hoisting:
+        -> https://www.youtube.com/watch?v=uI6o97A4IrI
+        -> https://developer.mozilla.org/es/docs/Glossary/Hoisting
