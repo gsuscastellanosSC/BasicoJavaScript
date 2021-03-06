@@ -16,3 +16,5 @@
 # Class#3
     Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
     -> typeof nameVar => How know type of a variable.
+# Class#4
+    Variables
