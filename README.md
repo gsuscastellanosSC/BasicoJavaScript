@@ -18,3 +18,18 @@
     -> typeof nameVar => How know type of a variable.
 # Class#4
     Variables
+# Class#5
+    Funciones
+        -> Declarativas:
+            function myFunction() {
+                return "Hello";
+            }
+
+        -> Expresión o función anomima
+            var myFunction = function(a, b) {
+                return a + b;
+            }
+
+            saludar = function(estudiante){ 
+                console.log(`hola ${estudiante}`) 
+            }
