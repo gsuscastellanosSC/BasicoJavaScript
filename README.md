@@ -13,3 +13,6 @@
             -> CSS
             -> JS
             * Web Assembly
+# Class#3
+    Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
+    -> typeof nameVar => How know type of a variable.
