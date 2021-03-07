@@ -64,7 +64,55 @@
         -> Boolean({}) => True
         -> Boolean([]) => True
         -> Boolean(function (){}) => True
+# Class#11
+    Operadores: Asignación, Comparación y Aritméticos.
+        Operadores:
+            Binarios:
+                Suma:
+                    x + y
+                Resta:
+                    x - y
+                División:
+                    x / y
+                Multiplicación:
+                    x * y
+                Concatenación:
+                    "x" + "y"
+                Asignación:
+                    x = y
+                Comparación:
+                    Comparación:
+                        x ==  x
+                    Comparación estricta:
+                        "x" === x
+                    Diferencia:
+                        x != y
+                    Diferencia estricta:
+                        x !== y
+                    Menor:
+                        x < y
+                    Menor o igual:
+                        x <= y
+                    Mayor:
+                        x > y
+                    Mayor o igual:
+                        x >= y
+                    And:
+                        x && y
+                    Or:
+                        a || b
+            Unarios:
+                Negación:
+                    !false => true
+                    !true => false
+            Incremeto:
+                Ingrementar en +1:
+                    variable++
+                Ingrementar en +n:
+                    variable += n
 # Links
+    Expressions and operators:
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
     Github:
         https://github.com/degranda/jsBasico-
     Hoisting:
