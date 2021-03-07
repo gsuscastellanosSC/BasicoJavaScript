@@ -54,6 +54,16 @@
             |String + Number = String|
             |String + String = String|
             |________________________|
+# Class#10
+    Valores: Truthy y Falsy
+        -> Boolean(0) => False
+        -> Boolean(n!=0) => True
+        -> Boolean(NaN) => False
+        -> Boolean(undefined) => False
+        -> Boolean("") => False
+        -> Boolean({}) => True
+        -> Boolean([]) => True
+        -> Boolean(function (){}) => True
 # Links
     Github:
         https://github.com/degranda/jsBasico-
