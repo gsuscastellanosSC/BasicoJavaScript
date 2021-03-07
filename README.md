@@ -122,6 +122,21 @@
         Operador ternario:
             contition ? true : false
             (x < y) ? "is true" : "is false"
+# Class#13
+    Switch
+        switch(validate case){
+    case 1:
+        console.log("1");
+        break;
+    case 2:
+        console.log("2");
+        break;
+    case n:
+        console.log("n");
+        break;
+    default:
+        console.log("default");
+    }
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
