@@ -110,6 +110,18 @@
                     variable++
                 Ingrementar en +n:
                     variable += n
+# Class#12
+    Condicionales: If, Else else if
+        if(){
+
+        }else if(){
+
+        }else{
+            
+        }
+        Operador ternario:
+            contition ? true : false
+            (x < y) ? "is true" : "is false"
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
