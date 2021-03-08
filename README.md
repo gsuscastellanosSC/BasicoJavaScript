@@ -215,6 +215,26 @@
               arry.push(new Auto(`Tesla${i+1}`, `Model ${i+1}`, `2020`));
               console.log(arry[i].detalleDelAuto());
           }
+# Class#19
+    Métodos de recorrido de Arrays
+        Example:
+            var articulos = [
+                {nombre : "Bici", costo: 3000},
+                {nombre : "Tv", costo: 2500},
+                {nombre : "Libro", costo: 320},
+                {nombre : "Celular", costo: 10000},
+                {nombre : "Laptop", costo: 20000},
+                {nombre : "Teclado", costo: 500},
+                {nombre : "Audifonos", costo: 1700},
+            ];
+        filter:
+            var articulosFiltrados = articulos.filter(function(articulo){
+                return articulo.costo <= 500
+            });
+        map:
+            var nombreArticulos = articulos.map(function(articulo){
+                return articulo.nombre;
+            });
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
