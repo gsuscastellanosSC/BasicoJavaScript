@@ -137,6 +137,24 @@
     default:
         console.log("default");
     }
+# Class#14
+    Arrays
+        Definir:
+            var nameArray = ["", 1, 3, "n"];
+        Longitud:
+            nameArray.length
+        Recorrido:
+            nameArray[i=(0,nameArray.length-1)];
+        Agregar elementos al final del array:
+            nameArray.push("NewValue");
+        Eliminar último valor del array:
+            nameArray.pop("element");
+        Agregar valor al inicio del array:
+            nameArray.unshift("value");
+        Eliminar elemento del inicio del Array:
+            nameArray.shift("value");
+        Saber la posición de un elemento:
+            nameArray.indexOf("Value or element");
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
