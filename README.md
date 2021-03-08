@@ -235,6 +235,20 @@
             var nombreArticulos = articulos.map(function(articulo){
                 return articulo.nombre;
             });
+# Class#20
+    Recorriendo Arrays con .find(), .forEach() y .some()
+        find():
+            var encuentraArticulo = articulos.find(function(articulo){
+                return articulo.nombre === "Laptop";
+            });
+        forEach():
+            articulos.forEach(function(articulo){
+                    console.log(articulo.nombre);
+            });
+        some():
+            var articulosBaratos = articulos.some(function(articulo){
+                return articulo.costo <= 700;
+            });
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
