@@ -194,6 +194,27 @@
             };
         Ejecutar metodo del objeto:
             myCar.detalleDelAuto();
+# Class#18
+    Objects: Función constructura:
+        Constructor:
+            function Auto(marca, modelo, anyo){
+                this.maca = marca;
+                this.modelo = modelo;
+                this.anyo = anyo;
+                this.detalleDelAuto = function(){
+                    console.log(`Auto ${this.model} ${this.anyo}`)
+                }
+            }
+        Instanciar objetos:
+            var myCar1 = new Auto("Tesla", "Model 3", 2020);
+            var myCar2 = new Auto("Toyota", "Corolla", 2018);
+            var myCarN = new Auto("Tesla", "Model x", 2021);
+        Solución del reto:
+          var arry = [];
+          for (var i=0; i<30; i++){
+              arry.push(new Auto(`Tesla${i+1}`, `Model ${i+1}`, `2020`));
+              console.log(arry[i].detalleDelAuto());
+          }
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
