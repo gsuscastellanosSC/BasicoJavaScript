@@ -171,6 +171,29 @@
             console.log(nameArray[i]);
             i++;
         }
+# Class#17
+    Objects
+        Definir:
+            var myCar = {
+                marca: "Toyota",
+                model: "Corolla",
+                anyo: 2020
+            };
+        Consultar:
+            myCar.marca;
+            myCar.model;
+            myCar.anyo;
+        Metodos de objetos:
+            var myCar = {
+                marca: "Toyota",
+                model: "Corolla",
+                anyo: 2020,
+                detalleDelAuto: function(){
+                    console.log(`Auto ${this.model} ${this.anyo}`)
+                }
+            };
+        Ejecutar metodo del objeto:
+            myCar.detalleDelAuto();
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
