@@ -164,6 +164,13 @@
         -> for(var i of nameArray){
                 console.log(i);
             }
+# Class#16
+    Loops: While
+        i = 0;
+        while(i < nameArray.length){
+            console.log(nameArray[i]);
+            i++;
+        }
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
