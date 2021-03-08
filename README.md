@@ -235,7 +235,7 @@
             var nombreArticulos = articulos.map(function(articulo){
                 return articulo.nombre;
             });
-# Class#20
+# Class#21
     Recorriendo Arrays con .find(), .forEach() y .some()
         find():
             var encuentraArticulo = articulos.find(function(articulo){
@@ -249,6 +249,16 @@
             var articulosBaratos = articulos.some(function(articulo){
                 return articulo.costo <= 700;
             });
+        Bonus Track:
+            Si ya entendiste cómo funciona .shift() aplicar .pop() te será pan comido 🍞. El método .pop() eliminará el último elemento de un array. 
+
+# Class#21
+    Eliminando elementos de un Array
+        push():
+            El método .push() nos permite agregar uno o más elementos al final de un array.
+        shift():
+            Ahora pasemos a la otra cara de la moneda donde necesitamos eliminar un elemento del array. .shift() eliminar el primer elemento de un array, es decir, elimina el elemento que esté en el índice 0.
+        
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
