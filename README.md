@@ -155,6 +155,15 @@
             nameArray.shift("value");
         Saber la posición de un elemento:
             nameArray.indexOf("Value or element");
+# Class#15
+    Loops: For y For...of
+        -> for(var i=0; i < nameArray.length; i++){
+                console.log(nameArray[i]);
+            }
+
+        -> for(var i of nameArray){
+                console.log(i);
+            }
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
