@@ -235,7 +235,7 @@
             var nombreArticulos = articulos.map(function(articulo){
                 return articulo.nombre;
             });
-# Class#21
+# Class#20
     Recorriendo Arrays con .find(), .forEach() y .some()
         find():
             var encuentraArticulo = articulos.find(function(articulo){
@@ -258,7 +258,8 @@
             El método .push() nos permite agregar uno o más elementos al final de un array.
         shift():
             Ahora pasemos a la otra cara de la moneda donde necesitamos eliminar un elemento del array. .shift() eliminar el primer elemento de un array, es decir, elimina el elemento que esté en el índice 0.
-        
+# Class#22
+    Despedida        
 # Links
     Expressions and operators:
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
